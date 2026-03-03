@@ -5,7 +5,7 @@
  * Autor:          Jason Thomas Wolf
  * Datum:          03.02.2026
  * Version:        1.0
- * Zuletzt geändert: 24.02.2026
+ * Zuletzt geändert: 03.03.2026
  *
  * Beschreibung:
  * Der Programmcode beschreibt eine automatische Tuerschranke welche mit dem
