@@ -3,9 +3,10 @@
  * Datei:          Source_Code.ino
  *
  * Autor:          Jason Thomas Wolf
+ * Team:           Jason Thomas Wolf, Jaehun Chung, Semin Ju
  * Datum:          03.02.2026
  * Version:        1.0
- * Zuletzt geändert: 03.03.2026
+ * Zuletzt geändert: 08.03.2026
  *
  * Beschreibung:
  * Der Programmcode beschreibt eine automatische Tuerschranke welche mit dem
@@ -54,10 +55,14 @@
  *
  * Angeschlossene Komponenten:
  * - [Bauteil 1]: 1x ELEGOO RFID-RC522 (2x RFID-Chipkarten)
- * - [Bauteil 2]: 1x ELEGOO LCD1602
+ * - [Bauteil 2]: 1x ELEGOO LCD1602 I2C
  * - [Bauteil 3]: 3x LED
  * - [Bauteil 4]: 5x Taster
  * - [Bauteil 5]: 1x Servo Motor
+ *
+ * Taster Anschluss: Nur eine Person gleichzeitig im Raum nicht mehrere! Die LED sind alle an einem Pin angeschlossen und müssen einzeln steuerbar sein (Adafruit NeoPixel - )
+ * 
+ *
  *
  * Bibliotheken:
  * - SPI.h - (Für RFID Kommunikation)
@@ -104,7 +109,7 @@
  * ToDo:
  * - [ ] Genaue Pin-Vergabe für alle Komponenten klären (Servo, LCD, RFID,
  * restliche Taster)
- * - [ ] LCD-Typ klären (I2C oder nicht)
+ * - [x] LCD-Typ klären (I2C oder nicht)
  * - [ ] Hauptlogik implementieren
  *
  * Kontakt:
