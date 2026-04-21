@@ -16,9 +16,9 @@ Für den RFID-RC522 Sensor:
  
 
 Für die LED's:
-- LED 1: Pin 7
-- LED 2: Pin 7
-- LED 3: Pin 7
+- LED 1: Pin 2
+- LED 2: Pin 2
+- LED 3: Pin 2
 
 
 Für die Taster:

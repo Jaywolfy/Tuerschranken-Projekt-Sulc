@@ -34,7 +34,7 @@
  * - Pin 12: RFID MISO
  * - Pin 13: RFID SCK
  * - Pin  8: Servo PWM
- * - Pin  7: Adafruit NeoPixel Data Pin
+ * - Pin  2: Adafruit NeoPixel Data Pin
  * - Pin A0: Alle Taster, als Analogwerte eingelesen
  *
  * Angeschlossene Komponenten:
@@ -72,7 +72,7 @@
 #define RFID_RST_PIN     9 // (Falls nicht anders in Dokumentation)
 
 // LEDs (NeoPixel)
-#define LED_PIN          7   // Alle LEDs auf Pin 7 (NeoPixel Data Pin)
+#define LED_PIN          2   // Alle LEDs auf Pin 2 (NeoPixel Data Pin)
 #define NUM_LEDS         3   // 3 LEDs
 
 // Taster
